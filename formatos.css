@@ -1,0 +1,63 @@
+
+body {
+    background-image: url(./fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: arial;
+}
+
+a {
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.cabecalho {    
+    display: flex;
+    background-color: black;
+    padding: 15px;   
+}
+
+.titulo {
+    display: flex;
+    place-content: center;  
+    flex-shrink: 0;
+   margin-top: 25%;
+   font-size: 25px;
+   color: rgb(233, 168, 168);
+   
+}
+cite {
+    text-shadow: 1px 1px 1px white, -1px 1px 1px white, 1px -1px 1px white, -1px -1px 1px white;
+    color: rgb(255, 0, 0);
+}
+
+h1::before {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    content: url(./img/logo.png);
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    flex-shrink: 0;
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;   
+    padding: 10px;
+    margin-top: 25%;
+}
